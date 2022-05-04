@@ -1,0 +1,50 @@
+
+====== Installation ======
+
+= System Installation
+brew install watchman
+npm install --global expo-cli
+rm -rf node_modules
+https://iterm2.com/
+yarn add prop-types
+
+
+==== Shortcut ======
+ctrl-M for android
+ctrl-D for IOS
+
+Create a new expo project
+expo init Duolingo -t blank
+
+======== React native =======
+Text, View, Image, ScrollView, TextInput
+
+- <View> Some text components </View>
+
+- <Text>Hello World!</Text>
+  properties:
+     numberOfLines={2}
+     ellipsizeMode="head, tail"
+
+- ScrollView basically, enclose everything you want to scroll inside
+
+- <Image
+      source={{name or uri: "https://iterm2.com/"}},
+      style={{ width:100, height: 100 }} resizeMode="cover, contain"
+   />
+
+- <TextInput />
+
+========= Styling =======
+
+style={{ height: 100}} inline styling
+
+const styles = StyleSheet.create({
+   root: {
+   }
+})
+style={ styles.root }
+
+The style can be in the separated folder
+import as an array
+
