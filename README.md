@@ -1,3 +1,3 @@
 # Duolingo-clone
 
-![screen](https://Screen.png
+![screen](https://Screen.png)
